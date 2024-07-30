@@ -20,7 +20,7 @@ namespace TestProject1
         [OneTimeSetUp]
         public void SetUp()
         {
-            hromeOptions options = new ChromeOptions();
+            ChromeOptions options = new ChromeOptions();
             options.AddArguments("headless");
             options.AddArguments("no-sandbox");
             options.AddArguments("disable-dev-shm-usage");
